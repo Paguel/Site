@@ -1,3 +1,60 @@
+header{
+    height: 45px; /* Fixe la hauteur du header */
+    margin-top: 5px;
+    width: 100%;
+    padding-top: 1rem;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header .container .navbars{
+    margin: 15px;
+}
+header .container .navbars a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-right: 35px;
+}
+header .container .navbars a:hover{
+    color: aquamarine;
+}
 body{
-    background-image: url();
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images - 2024-08-10T000604.229.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; /* L'image couvre toute la page */
+    backdrop-filter: blur(10px);
+    background-position: center;
+    height: 100vh;
+    margin: 0; /* Supprime les marges par défaut */
+    z-index: -1; /* Place l'image derrière le contenu */
+}
+header .container .logo{
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    margin-left: 30px;
+}
+#home{
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+#home h1{
+    font-size: 4rem;
+    color: white;
+    padding-top: 8rem;
+}
+#home p{
+    font-size: 25px;
+    height: 50px;
+}
+.image{
+    margin-right: 6rem;
+    padding-top: 1rem;
+}
+.image img{
+    height: 35rem;
 }
