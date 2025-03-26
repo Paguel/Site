@@ -1,5 +1,4 @@
 header{
-    height: 45px; /* Fixe la hauteur du header */
     margin-top: 5px;
     width: 100%;
     padding-top: 1rem;
@@ -45,11 +44,10 @@ header .container .logo{
 #home h1{
     font-size: 4rem;
     color: white;
-    padding-top: 8rem;
+    padding-top: 6rem;
 }
-#home p{
-    font-size: 25px;
-    height: 50px;
+#home h1 span{
+    color: aquamarine;
 }
 .image{
     margin-right: 6rem;
