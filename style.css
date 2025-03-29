@@ -20,7 +20,7 @@ header .container .navbars a:hover{
     color: aquamarine;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'montserrat';
     background-image: url("images - 2024-08-10T000604.229.jpeg");
     background-repeat: no-repeat;
     background-size: cover; /* L'image couvre toute la page */
@@ -29,6 +29,7 @@ body{
     height: 100vh;
     margin: 0; /* Supprime les marges par défaut */
     z-index: -1; /* Place l'image derrière le contenu */
+    background-color: black;
 }
 header .container .logo{
     color: rgb(255, 255, 255);
@@ -55,4 +56,65 @@ header .container .logo{
 }
 .image img{
     height: 35rem;
+}
+#about{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#about h1{
+    display: inline-block; /* Pour que la bordure s’adapte au texte */
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 100px;
+    border: 2px solid gold; /* Bordure blanche de 2px */
+    padding: 10px 20px; /* Espace à l'intérieur de la bordure */
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content p{
+    text-align: justify;
+    margin-left: 5rem;
+    margin-top: 6rem;
+    color: white;
+}
+.content img{
+    margin-right: 10rem;
+}
+#projets{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: rgb(27, 27, 27);
+}
+#projets h1{
+    display: inline-block; /* Pour que la bordure s’adapte au texte */
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 100px;
+    border: 2px solid gold; /* Bordure blanche de 2px */
+    padding: 10px 20px; /* Espace à l'intérieur de la bordure */
+}
+@media screen and (max-width: 780px) {
+    header .container{
+        display: block;
+    }
+    header .container .navbars{
+        background-color: rgb(1, 66, 45);
+    }
+    header .container .navbars a{
+        display: block;
+        padding: 10px;
+        margin-left: 1rem;
+    }
+    #home{
+        display: block;
+        margin-top: 15px;
+    }
 }
