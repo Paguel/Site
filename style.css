@@ -36,32 +36,46 @@ header .container .logo{
     font-size: 11px;
     margin-left: 30px;
 }
-#home{
+#home .home2 {
     margin-left: 5rem;
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
 }
-#home h1{
+#home .home2 h1{
     font-size: 4rem;
     color: white;
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
-#home h1 span{
+#home .home2 h1 span{
     color: aquamarine;
 }
-.image{
-    margin-right: 6rem;
-    padding-top: 1rem;
+#home .bouton{
+    margin-left: 5rem;
+    margin-top: -14rem;
+    
 }
-.image img{
+#home .bouton button{
+    padding: 13px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+#home .bouton button:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+#home .home2 .image{
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+#home .home2 .image img{
     height: 35rem;
 }
 #about{
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 12rem;
 }
 #about h1{
     display: inline-block; /* Pour que la bordure s’adapte au texte */
@@ -72,18 +86,72 @@ header .container .logo{
     border: 2px solid gold; /* Bordure blanche de 2px */
     padding: 10px 20px; /* Espace à l'intérieur de la bordure */
 }
-.content{
+#about .content{
     display: flex;
     justify-content: space-between;
+    gap: 45px;
 }
-.content p{
+#about .content .texte p{
     text-align: justify;
-    margin-left: 5rem;
+    margin-right: 5rem;
     margin-top: 6rem;
     color: white;
 }
-.content img{
-    margin-right: 10rem;
+#about .content img{
+    margin-left: 4rem;
+    margin-top: -5rem;
+}
+#competence{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#competence h1{
+    display: inline-block; /* Pour que la bordure s’adapte au texte */
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 100px;
+    border: 2px solid gold; /* Bordure blanche de 2px */
+    padding: 10px 20px; /* Espace à l'intérieur de la bordure */
+}
+#competence .compet{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    margin-top: 5rem;
+}
+#competence .compet .compet1{
+    margin-left: 5rem;
+}
+#competence .compet .compet2{
+    margin-left: 5rem;
+}
+#competence .enum{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#competence .enum .enum1{
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    padding: 7rem;
+    margin-right: 5rem;
+    display: flex;
+    gap: 30px;
+}
+#competence .enum .enum2{
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    padding: 7rem;
+    margin-left: 5rem;
+    display: flex;
+    gap: 30px;
 }
 #projets{
     text-align: center;
