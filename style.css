@@ -106,15 +106,17 @@ header .container .logo{
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    background-color: rgb(0, 12, 14);
+    height: 800px;
 }
 #competence h1{
-    display: inline-block; /* Pour que la bordure s’adapte au texte */
+    display: inline-block; 
     margin-top: 2rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     border-radius: 100px;
-    border: 2px solid gold; /* Bordure blanche de 2px */
-    padding: 10px 20px; /* Espace à l'intérieur de la bordure */
+    border: 2px solid gold; 
+    padding: 10px 20px;
 }
 #competence .compet{
     color: white;
@@ -123,11 +125,11 @@ header .container .logo{
     gap: 20rem;
     margin-top: 5rem;
 }
-#competence .compet .compet1{
-    margin-left: 5rem;
+#competence .compet .compet1 h2{
+    margin-right: 8rem;
 }
-#competence .compet .compet2{
-    margin-left: 5rem;
+#competence .compet .compet2 h2{
+    margin-left: 3rem;
 }
 #competence .enum{
     color: white;
@@ -139,19 +141,84 @@ header .container .logo{
     border: 1px solid white;
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    padding: 7rem;
+    padding: 5rem;
     margin-right: 5rem;
     display: flex;
     gap: 30px;
+}
+#competence .enum .enum1 .Photoshop img{
+    height: 100px;
+    width: 100px;
+}
+#competence .enum .enum1 .Photoshop img:hover{
+    transform: scale(1.1);
+}
+#competence .enum .enum1 .Photoshop progress{
+    display: block;
+    width: 130px;
+    height: 20px;
+    margin-top: 20px;
+}
+#competence .enum .enum1 .Illustrator img{
+    height: 100px;
+    width: 100px;
+}
+#competence .enum .enum1 .Illustrator img:hover{
+    transform: scale(1.1);
+}
+#competence .enum .enum1 .Illustrator progress{
+    display: block;
+    width: 130px;
+    height: 20px;
+    margin-top: 20px;
 }
 #competence .enum .enum2{
     border: 1px solid white;
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    padding: 7rem;
+    padding: 5rem;
     margin-left: 5rem;
     display: flex;
     gap: 30px;
+}
+#competence .enum .enum2 .html img{
+    height: 80px;
+    width: 80px;
+}
+#competence .enum .enum2 .html img:hover{
+    transform: scale(1.1);
+}
+#competence .enum .enum2 .html progress{
+    display: block;
+    width: 130px;
+    height: 20px;
+    margin-top: 20px;
+}
+#competence .enum .enum2 .css img{
+    height: 100px;
+    width: 100px;
+}
+#competence .enum .enum2 .css img:hover{
+    transform: scale(1.1);
+}
+#competence .enum .enum2 .css progress{
+    display: block;
+    width: 130px;
+    height: 20px;
+    margin-top: 20px;
+}
+#competence .enum .enum2 .js img{
+    height: 100px;
+    width: 100px;
+}
+#competence .enum .enum2 .js img:hover{
+    transform: scale(1.1);
+}
+#competence .enum .enum2 .js progress{
+    display: block;
+    width: 130px;
+    height: 20px;
+    margin-top: 20px;
 }
 #projets{
     text-align: center;
