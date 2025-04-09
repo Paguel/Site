@@ -21,7 +21,7 @@ header .container .navbars a:hover{
 }
 body{
     font-family: 'montserrat';
-    background-image: url("images - 2024-08-10T000604.229.jpeg");
+    background-image: url("image/images\ -\ 2024-08-10T000604.229.jpeg");
     background-repeat: no-repeat;
     background-size: cover; /* L'image couvre toute la page */
     backdrop-filter: blur(10px);
@@ -78,13 +78,9 @@ header .container .logo{
     margin-top: 12rem;
 }
 #about h1{
-    display: inline-block; /* Pour que la bordure s’adapte au texte */
     margin-top: 2rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
-    border-radius: 100px;
-    border: 2px solid gold; /* Bordure blanche de 2px */
-    padding: 10px 20px; /* Espace à l'intérieur de la bordure */
 }
 #about .content{
     display: flex;
@@ -110,13 +106,9 @@ header .container .logo{
     height: 800px;
 }
 #competence h1{
-    display: inline-block; 
     margin-top: 2rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
-    border-radius: 100px;
-    border: 2px solid gold; 
-    padding: 10px 20px;
 }
 #competence .compet{
     color: white;
@@ -147,8 +139,9 @@ header .container .logo{
     gap: 30px;
 }
 #competence .enum .enum1 .Photoshop img{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
+    margin-top: 19px;
 }
 #competence .enum .enum1 .Photoshop img:hover{
     transform: scale(1.1);
@@ -157,7 +150,7 @@ header .container .logo{
     display: block;
     width: 130px;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #competence .enum .enum1 .Illustrator img{
     height: 100px;
@@ -184,6 +177,7 @@ header .container .logo{
 #competence .enum .enum2 .html img{
     height: 80px;
     width: 80px;
+    margin-top: 10px;
 }
 #competence .enum .enum2 .html img:hover{
     transform: scale(1.1);
@@ -192,11 +186,12 @@ header .container .logo{
     display: block;
     width: 130px;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #competence .enum .enum2 .css img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    margin-top: -30px;
 }
 #competence .enum .enum2 .css img:hover{
     transform: scale(1.1);
@@ -205,7 +200,6 @@ header .container .logo{
     display: block;
     width: 130px;
     height: 20px;
-    margin-top: 20px;
 }
 #competence .enum .enum2 .js img{
     height: 100px;
@@ -223,18 +217,31 @@ header .container .logo{
 #projets{
     text-align: center;
     justify-content: center;
+    margin-top: -2rem;
     align-items: center;
-    margin-top: 2rem;
     background-color: rgb(27, 27, 27);
 }
 #projets h1{
-    display: inline-block; /* Pour que la bordure s’adapte au texte */
-    margin-top: 2rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     border-radius: 100px;
-    border: 2px solid gold; /* Bordure blanche de 2px */
-    padding: 10px 20px; /* Espace à l'intérieur de la bordure */
+    padding-top: 3rem;
+}
+#projets .design{
+    margin: 90px;
+}
+#projets .design .bloc1{
+    height: 300px;
+    width: 300px;
+    gap: 50px;
+    display: flex;
+}
+#projets .design .bloc2{
+    height: 290px;
+    width: 290px;
+    gap: 20px;
+    display: flex;
+    margin-top: 50px;
 }
 @media screen and (max-width: 780px) {
     header .container{
