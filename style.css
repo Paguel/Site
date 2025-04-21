@@ -109,6 +109,7 @@ header .container .logo{
     margin-top: 2rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
+    padding-top: 2rem;
 }
 #competence .compet{
     color: white;
@@ -220,12 +221,13 @@ header .container .logo{
     margin-top: -2rem;
     align-items: center;
     background-color: rgb(27, 27, 27);
+    height: 60rem;
 }
 #projets h1{
     color: rgb(255, 255, 255);
     font-size: 2rem;
     border-radius: 100px;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 #projets .design{
     margin: 90px;
@@ -236,12 +238,94 @@ header .container .logo{
     gap: 50px;
     display: flex;
 }
+#projets .design .bloc1 img:hover{
+    transform: scale(1.1);
+}
 #projets .design .bloc2{
     height: 290px;
     width: 290px;
     gap: 20px;
     display: flex;
     margin-top: 50px;
+}
+#projets .design .bloc2 img:hover{
+    transform: scale(1.1);
+}
+#contact{
+    background-color: rgb(27, 32, 30);
+    height: 800px;
+    margin-top: -2rem;
+}
+#contact h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 100px;
+    padding-top: 2rem;
+    text-align: center;
+}
+#contact .formulaire{
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid white;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 330px;
+    box-shadow: 0 0 20px rgb(30, 141, 135);
+}
+#contact .formulaire label{
+    display: block;
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+}
+#contact .formulaire input{
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+#contact .formulaire .msg input{
+    height: 100px;
+}
+#contact .formulaire button{
+    width: 535px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(30, 141, 135);
+    color: rgb(255, 255, 255);
+}
+#contact .formulaire button:hover{
+    background-color: rgb(38, 0, 207);
+}
+.footer{
+    background-color: rgb(31, 55, 59);
+    height: 150px;
+    margin-top: -5rem;
+}
+.footer h1{
+    color: white;
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer .icomoon {
+    text-align: center;
+}
+.footer .icomoon a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 23px;
+}
+.footer .icomoon a:hover{
+    color: aqua;
+    transform: scale(1.1);
 }
 @media screen and (max-width: 780px) {
     header .container{
